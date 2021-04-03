@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+}
+.center{
+  display: block;
+  text-align: center;
+}
+.font-Size{
+  font-size: 10px;
+  text-align: center;
+}
+.font-Size a{
+  font-size: 14px;
+}
+td{
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: center;
+}
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+table{
+  border-collapse: separate;
+  font-size: medium;
+  font-style: normal;
+  text-align: start;
+  border-spacing: 2px;
+  font-variant: normal;
+  width: 90%; 
+}
+tr{
+  display: table-row;
+  vertical-align: inherit;
+}
+form{
+  display: block;
+  margin-top: 0em;
+  margin-block-end: 1em;
+}
+footer{
+  font-size: 13px;
+  text-align: center;
+}
