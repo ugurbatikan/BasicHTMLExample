@@ -1,0 +1,220 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #acd0df46;
+}
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+nav{
+  float: right;
+  margin-top: 10px;
+}
+nav a{
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 14px 18px;
+}
+nav a:hover{
+  color:#1597bb;
+  background:#fdfdfd41;
+  font-weight: bold;
+}
+nav .highlight, nav .current a{
+  color: #1597bb;
+  font-weight: bold;
+}
+/* Navigation end */
+
+/* Header */
+header{
+  background: #7b113a;
+  color: #1597bb;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #5068b9 3px solid;
+}
+header li{
+  display: inline-flex;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+ margin: 0;   
+
+}
+header #branding img{
+  float: left;  
+}
+/* Header end */
+
+/* Showcase */
+#showcase{
+  min-height: 500px;
+  background: url("./img/showcase.jpg") no-repeat 0 -300px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  text-align: center;
+  color: rgb(248, 10, 10);  
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+ 
+  
+}
+#showcase p{
+  font-size: 30px;
+}
+/* Showcase end */
+
+/* Boxes */
+
+#boxes{
+  margin-top: 30px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 20%;
+}
+#boxes .box h3{
+  font-size: 20px;
+  color: #150e56;
+}
+#boxes .box p{
+  color: #1597bb;
+}
+/* Boxes end */
+
+
+/* Products */
+
+.page-title{
+  text-align: center;
+  font-size: 45px;
+  color: #150e56;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  float: left;
+  padding: 12px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+.price {
+  color: #7b113a;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #150e56;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/* Products end */
+
+/* Contact us */
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #7b113a;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #7b113a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1597bb;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Contact us End*/
+
+/* Footer */
+
+footer{
+  padding: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #1597bb;
+  text-align: center;
+  font-size: 15px;
+}
+.fa.fa-phone{
+  color: #150e56;
+  font-size: 40px;
+}
+.fa.fa-phone a{
+  text-decoration: none;
+  font-size: 25px;
+}
